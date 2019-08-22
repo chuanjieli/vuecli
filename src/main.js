@@ -3,6 +3,9 @@ import './plugins/axios'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Iview from 'iview'
+import 'iview/dist/styles/iview.css'
+Vue.use(Iview)
 
 Vue.config.productionTip = false
 
